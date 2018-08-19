@@ -1,9 +1,9 @@
 CREATE TABLE public.person
 (
-    person_id bigint NOT NULL,
-    first_name character varying(100),
-    last_name character varying(100),
-    PRIMARY KEY (person_id)
+    id bigint NOT NULL,
+    firstName character varying(100),
+    lastName character varying(100),
+    PRIMARY KEY (id)
 )
 WITH (
     OIDS = FALSE
