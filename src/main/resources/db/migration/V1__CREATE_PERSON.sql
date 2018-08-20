@@ -1,8 +1,8 @@
 CREATE TABLE public.person
 (
     id bigint NOT NULL,
-    firstName character varying(100),
-    lastName character varying(100),
+    firstname character varying(100),
+    lastname character varying(100),
     PRIMARY KEY (id)
 )
 WITH (
